@@ -112,6 +112,7 @@ footer{
 }
 
 .body{
+    left:0;
     background-color: #FFFFFF;
     position: absolute;
     height: 704px;
