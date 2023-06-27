@@ -95,6 +95,15 @@ footer{
     padding: 40px;
 }
 
+.portfolio {
+    position: absolute;
+    right: 110px;
+    height: 50px;
+    top: 40px;
+}
+
+
+
 .bio {
     font-family: 'Inria Serif';
     font-style: normal;
