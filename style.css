@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&family=Italianno&display=swap');
 
-html, body {margin:0; height:100%; overflow:hidden}
-
+html, body {
+    margin:0; 
+    height:100%;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
 .material-symbols-outlined {
     transform: translateY(20%);
     font-variation-settings:
@@ -370,3 +375,90 @@ footer{
     
     color: #000000;
  }
+
+@media (max-width: 1480px) {
+    #formations {
+        left: 30%;
+        transform: translate(-50%, 0);
+    }
+
+    #experiences {
+        left: 80%;
+        transform: translate(-50%, 0);
+    }
+
+    #projets {
+        left: 55%;
+        transform: translate(-50%, 0);
+
+    }
+
+    #competences {
+        top: 670px;
+        left: 40%;
+        transform: translate(-50%, 0);
+    }
+
+    #outils {
+        top: 700px;
+        left: 70%;
+        transform: translate(-50%, 0);
+    }
+
+    footer {
+        bottom: -500px;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .bio {
+        width: 80%;
+        margin: 15px;
+    }
+
+
+    #formations {
+        top: 320px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    #experiences {
+        left: 50%;
+        transform: translate(-50%, 0);
+        top: 700px;
+    }
+
+    #projets {
+        left: 50%;
+        transform: translate(-50%, 0);
+        opacity: 0;
+
+    }
+
+    #competences {
+        left: 50%;
+        transform: translate(-50%, 0);
+        top: 1100px;
+
+
+    }
+
+    #outils {
+        left: 50%;
+        transform: translate(-50%, 0);
+        top: 1500px;
+
+
+    }
+
+    footer {
+        bottom: -1200px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+}
+  
